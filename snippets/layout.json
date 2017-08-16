@@ -1,0 +1,14 @@
+{
+    "Layout Base": {
+        "prefix": "m2-layout",
+        "body": [
+            "<?xml version=\"1.0\"?>",
+            "<page xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"urn:magento:framework:View/Layout/etc/page_configuration.xsd\">",
+            "\t<body>",
+            "\t\t$0"
+            "\t</body>",
+            "</page>"
+        ],
+        "description": "Base layout code for every layout file"
+    },
+}
