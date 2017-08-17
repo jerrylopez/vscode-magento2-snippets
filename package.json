@@ -4,6 +4,15 @@
     "description": "A collection of Magento 2 snippets",
     "version": "0.1.0",
     "publisher": "jerrylopez",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jerrylopez/vscode-magento2-snippets/issues"
+    },
+    "homepage": "https://github.com/jerrylopez/vscode-magento2-snippets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jerrylopez/vscode-magento2-snippets.git"
+    },
     "engines": {
         "vscode": "^1.15.0"
     },
