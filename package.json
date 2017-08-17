@@ -2,7 +2,7 @@
     "name": "magento2-snippets",
     "displayName": "Magento 2 Snippets",
     "description": "A collection of Magento 2 snippets",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "jerrylopez",
     "engines": {
         "vscode": "^1.15.0"
@@ -12,10 +12,6 @@
     ],
     "contributes": {
         "snippets": [
-            {
-                "language": "php",
-                "path": "./snippets/snippets.json"
-            },
             {
                 "language": "xml",
                 "path": "./snippets/layout.json"
