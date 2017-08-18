@@ -1,0 +1,19 @@
+{
+    "Block": {
+        "prefix": "m2.layout.block",
+        "body": [
+            "<block class=\"$1\" name=\"$3\" as=\"$5\" template=\"$7\" />$0",
+        ],
+        "description": "Defines a block"
+    },
+
+    "Block Wrap": {
+        "prefix": "m2.layout.blockWrap",
+        "body": [
+            "<block class=\"$1\" name=\"$3\" as=\"$5\" template=\"$7\" />",
+            "\t$0",
+            "</block>"
+        ],
+        "description": "Defines a wrapping block"
+    },
+}
