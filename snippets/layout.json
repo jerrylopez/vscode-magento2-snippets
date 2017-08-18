@@ -5,9 +5,10 @@
      *  http://devdocs.magento.com/guides/v2.1/frontend-dev-guide/layouts/xml-instructions.html
      *
      */
-     
-    "Layout Base": {
-        "prefix": "m2l-base",
+    
+    /* Scaffolding */ 
+    "Layout Scaffold": {
+        "prefix": "m2.layout",
         "body": [
             "<?xml version=\"1.0\"?>",
             "<page xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"urn:magento:framework:View/Layout/etc/page_configuration.xsd\">",
@@ -16,17 +17,19 @@
             "\t</body>",
             "</page>"
         ],
-        "description": "Base layout code for every layout file"
+        "description": "Magento 2 layout scaffold"
     },
+
+    /* Tags */
     "Block": {
-        "prefix": "m2l-block",
+        "prefix": "m2.layout.block",
         "body": [
             "<block class=\"$1\" name=\"$3\" as=\"$5\" template=\"$7\" />$0",
         ],
         "description": "Defines a block"
     },
     "Block Wrap": {
-        "prefix": "m2l-block-wrap",
+        "prefix": "m2.layout.blockWrap",
         "body": [
             "<block class=\"$1\" name=\"$3\" as=\"$5\" template=\"$7\" />",
             "\t$0",
@@ -35,14 +38,14 @@
         "description": "Defines a wrapping block"
     },
     "Container": {
-        "prefix": "m2l-container",
+        "prefix": "m2.layout.container",
         "body": [
             "<container name=\"$1\" label=\"$2\" output=\"${3:0}\" htmlTag=\"$4\" htmlId=\"$5\" htmlClass=\"$6\" />$0"
         ],
         "description": "A structure without content that holds other layout elements such as blocks and containers"
     },
     "Container Wrap": {
-        "prefix": "m2l-container-wrap",
+        "prefix": "m2.layout.containerWrap",
         "body": [
             "<container name=\"$1\" label=\"$2\" output=\"${3:0}\" htmlTag=\"$4\" htmlId=\"$5\" htmlClass=\"$6\">",
             "\t$0",
@@ -51,7 +54,7 @@
         "description": "A structure without content that holds other layout elements such as blocks and containers"
     },
     "Reference Block": {
-        "prefix": "m2l-refblock",
+        "prefix": "m2.layout.refBlock",
         "body": [
             "<referenceBlock name=\"$1\">",
             "\t$0",
@@ -60,7 +63,7 @@
         "description": "Targets blocks and applies updates specified"
     },
     "Reference Container": {
-        "prefix": "m2l-refcontainer",
+        "prefix": "m2.layout.refContainer",
         "body": [
             "<referenceContainer name=\"$1\">",
             "\t$0",
@@ -69,28 +72,28 @@
         "description": "Targets containers and applies updates specified"
     },
     "Move": {
-        "prefix": "m2l-move",
+        "prefix": "m2.layout.move",
         "body": [
             "<move element=\"$1\" destination=\"$2\" />$0"
         ],
         "description": "Sets the declared block or container element as a child of another element in the specified order"
     },
     "Remove": {
-        "prefix": "m2l-remove",
+        "prefix": "m2.layout.remove",
         "body": [
             "<remove src=\"$1\" />$0"
         ],
         "description": "Is used only to remove the static resources linked in a page <head> section"
     },
     "Update": {
-        "prefix": "m2l-update",
+        "prefix": "m2.layout.update",
         "body": [
             "<update handle=\"$0\"/>"
         ],
         "description": "Includes a certain layout file"
     },
     "Arguements": {
-        "prefix": "m2l-args",
+        "prefix": "m2.layout.args",
         "body": [
             "<arguments>",
             "\t$0",
@@ -99,10 +102,51 @@
         "description": "Includes a certain layout file"
     },
     "Arguement": {
-        "prefix": "m2l-arg",
+        "prefix": "m2.layout.arg",
         "body": [
             "<argument name=\"${1:name}\" xsi:type=\"${2:type|string,boolean,object,number,null,array|}\">$0</argument>",
         ],
         "description": "Includes a certain layout file"
+    },
+
+    /* Attributes */
+    "Before": {
+        "prefix": "m2.layout.attr.before",
+        "body": [
+            "before=\"${1:|dash(-),element,empty|}\"$0",
+        ],
+        "description": "Before attribute"
+    },
+
+    "After": {
+        "prefix": "m2.layout.attr.after",
+        "body": [
+            "after=\"${1:|dash(-),element,empty|}\"$0",
+        ],
+        "description": "After attribute"
+    },
+
+    "Cacheable": {
+        "prefix": "m2.layout.attr.cacheable",
+        "body": [
+            "cacheable=\"${boolean:|true,false|}\"$0",
+        ],
+        "description": "Cacheable attribute"
+    },
+    
+    "Display": {
+        "prefix": "m2.layout.attr.display",
+        "body": [
+            "display=\"${boolean:|true,false|}\"$0",
+        ],
+        "description": "Display attribute"
+    },
+
+    "Remove Attribute": {
+        "prefix": "m2.layout.attr.remove",
+        "body": [
+            "remove=\"${boolean:|true,false|}\"$0",
+        ],
+        "description": "Remove attribute"
     },
 }
