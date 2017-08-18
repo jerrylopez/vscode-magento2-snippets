@@ -16,22 +16,6 @@
         ],
         "description": "Defines a wrapping block"
     },
-    "Container": {
-        "prefix": "m2.layout.container",
-        "body": [
-            "<container name=\"$1\" label=\"$2\" output=\"${3:0}\" htmlTag=\"$4\" htmlId=\"$5\" htmlClass=\"$6\" />$0"
-        ],
-        "description": "A structure without content that holds other layout elements such as blocks and containers"
-    },
-    "Container Wrap": {
-        "prefix": "m2.layout.containerWrap",
-        "body": [
-            "<container name=\"$1\" label=\"$2\" output=\"${3:0}\" htmlTag=\"$4\" htmlId=\"$5\" htmlClass=\"$6\">",
-            "\t$0",
-            "</container>"
-        ],
-        "description": "A structure without content that holds other layout elements such as blocks and containers"
-    },
     "Reference Block": {
         "prefix": "m2.layout.refBlock",
         "body": [
