@@ -1,25 +1,4 @@
 {
-    /**
-     *
-     *  All code in snippets retrieved from 
-     *  http://devdocs.magento.com/guides/v2.1/frontend-dev-guide/layouts/xml-instructions.html
-     *
-     */
-    
-    /* Scaffolding */ 
-    "Layout Scaffold": {
-        "prefix": "m2.layout",
-        "body": [
-            "<?xml version=\"1.0\"?>",
-            "<page xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"urn:magento:framework:View/Layout/etc/page_configuration.xsd\">",
-            "\t<body>",
-            "\t\t$0",
-            "\t</body>",
-            "</page>"
-        ],
-        "description": "Magento 2 layout scaffold"
-    },
-
     /* Tags */
     "Block": {
         "prefix": "m2.layout.block",
