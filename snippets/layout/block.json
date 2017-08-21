@@ -16,4 +16,14 @@
         ],
         "description": "Defines a wrapping block"
     },
+
+    "Reference Block": {
+        "prefix": "m2.layout.refBlock",
+        "body": [
+            "<referenceBlock name=\"$1\">",
+            "\t$0",
+            "</referenceBlock>"
+        ],
+        "description": "Targets blocks and applies updates specified"
+    }
 }

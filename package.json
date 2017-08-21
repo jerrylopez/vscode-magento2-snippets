@@ -23,7 +23,35 @@
         "snippets": [
             {
                 "language": "xml",
-                "path": "./snippets/layout.json"
+                "path": "./snippets/layout/arguement.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/layout/attribute.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/layout/block.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/layout/container.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/layout/move.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/layout/remove.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/layout/scaffold.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/layout/update.json"
             }
         ]
     }

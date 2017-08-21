@@ -16,4 +16,14 @@
         ],
         "description": "A structure without content that holds other layout elements such as blocks and containers"
     },
+
+    "Reference Container": {
+        "prefix": "m2.layout.refContainer",
+        "body": [
+            "<referenceContainer name=\"$1\">",
+            "\t$0",
+            "</referenceContainer>"
+        ],
+        "description": "Targets containers and applies updates specified"
+    },
 }
