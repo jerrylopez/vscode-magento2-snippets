@@ -1,0 +1,9 @@
+{
+    "Move": {
+        "prefix": "m2.layout.move",
+        "body": [
+            "<move element=\"$1\" destination=\"$2\" />$0"
+        ],
+        "description": "Sets the declared block or container element as a child of another element in the specified order"
+    }
+}

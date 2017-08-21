@@ -1,0 +1,153 @@
+{
+    "Translate": {
+        "prefix": "m2.layout.attr.translate",
+        "body": [
+            "translate=\"${2:boolean|true,false|}\""
+        ],
+        "description": "Translate attribute"
+    },
+
+    "xsi:type": {
+        "prefix": "m2.layout.attr.xsi:type",
+        "body": [
+            "xsi:type=\"${2:type|string,boolean,object,number,null,array|}\""
+        ],
+        "description": "xsi:type attribute"
+    },
+
+    "Handle": {
+        "prefix": "m2.layout.attr.handle",
+        "body": [
+            "handle=\"$1\"$0"
+        ],
+        "description": "Handle attribute"
+    },
+
+    "Destination": {
+        "prefix": "m2.layout.attr.destination",
+        "body": [
+            "destination=\"$1\"$0"
+        ],
+        "description": "Destination attribute"
+    },
+
+    "Element": {
+        "prefix": "m2.layout.attr.element",
+        "body": [
+            "element=\"$1\"$0"
+        ],
+        "description": "Element attribute"
+    },
+
+    "htmlId": {
+        "prefix": "m2.layout.attr.htmlId",
+        "body": [
+            "htmlId=\"$1\"$0"
+        ],
+        "description": "htmlId attribute"
+    },
+
+    "htmlClass": {
+        "prefix": "m2.layout.attr.htmlClass",
+        "body": [
+            "htmlClass=\"$1\"$0"
+        ],
+        "description": "htmlClass attribute"
+    },
+
+    "htmlTag": {
+        "prefix": "m2.layout.attr.htmlTag",
+        "body": [
+            "htmlTag=\"$1\"$0"
+        ],
+        "description": "htmlTag attribute"
+    },
+
+    "Output": {
+        "prefix": "m2.layout.attr.output",
+        "body": [
+            "output=\"${1:|1,0|}\"$0"
+        ],
+        "description": "Output attribute"
+    },
+
+    "Label": {
+        "prefix": "m2.layout.attr.label",
+        "body": [
+            "label=\"$1\"$0"
+        ],
+        "description": "Label attribute"
+    },
+
+    "As": {
+        "prefix": "m2.layout.attr.as",
+        "body": [
+            "as=\"$1\"$0"
+        ],
+        "description": "As attribute"
+    },
+
+    "Template": {
+        "prefix": "m2.layout.attr.template",
+        "body": [
+            "template=\"$1\"$0"
+        ],
+        "description": "Template attribute"
+    },
+
+    "Class": {
+        "prefix": "m2.layout.attr.class",
+        "body": [
+            "class=\"$1\"$0"
+        ],
+        "description": "Class attribute"
+    },
+
+    "Name": {
+        "prefix": "m2.layout.attr.name",
+        "body": [
+            "name=\"$1\"$0"
+        ],
+        "description": "Name attribute"
+    },
+    
+    "Before": {
+        "prefix": "m2.layout.attr.before",
+        "body": [
+            "before=\"${1:|dash(-),element,empty|}\"$0"
+        ],
+        "description": "Before attribute"
+    },
+
+    "After": {
+        "prefix": "m2.layout.attr.after",
+        "body": [
+            "after=\"${1:|dash(-),element,empty|}\"$0"
+        ],
+        "description": "After attribute"
+    },
+
+    "Cacheable": {
+        "prefix": "m2.layout.attr.cacheable",
+        "body": [
+            "cacheable=\"${boolean:|true,false|}\"$0"
+        ],
+        "description": "Cacheable attribute"
+    },
+    
+    "Display": {
+        "prefix": "m2.layout.attr.display",
+        "body": [
+            "display=\"${boolean:|true,false|}\"$0"
+        ],
+        "description": "Display attribute"
+    },
+
+    "Remove": {
+        "prefix": "m2.layout.attr.remove",
+        "body": [
+            "remove=\"${boolean:|true,false|}\"$0"
+        ],
+        "description": "Remove attribute"
+    }
+}
