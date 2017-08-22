@@ -167,21 +167,172 @@ A nice start to a collection of Magento 2 code snippets for Visual Studio Code!
 ## Attributes
 
 ### Translate
+
+**Trigger:** `m2.layout.attr.translate`
+
+**Output:**
+```xml
+translate=""
+```
+
 ### xsi:type
+
+**Trigger:** `m2.layout.attr.xsi:type`
+
+**Output:**
+```xml
+xsi:type=""
+```
+
 ### Handle
+
+**Trigger:** `m2.layout.attr.handle`
+
+**Output:**
+```xml
+handle=""
+```
+
 ### Destination
+
+**Trigger:** `m2.layout.attr.destination`
+
+**Output:**
+```xml
+destination=""
+```
+
 ### Element
+
+**Trigger:** `m2.layout.attr.element`
+
+**Output:**
+```xml
+element=""
+```
+
 ### htmlId
+
+**Trigger:** `m2.layout.attr.htmlId`
+
+**Output:**
+```xml
+htmlId=""
+```
+
 ### htmlClass
+
+**Trigger:** `m2.layout.attr.htmlClass`
+
+**Output:**
+```xml
+htmlClass=""
+```
+
 ### htmlTag
+
+**Trigger:** `m2.layout.attr.htmlTag`
+
+**Output:**
+```xml
+htmlTag=""
+```
+
 ### Output
+
+**Trigger:** `m2.layout.attr.output`
+
+**Output:**
+```xml
+output=""
+```
+
 ### Label
+
+**Trigger:** `m2.layout.attr.label`
+
+**Output:**
+```xml
+label=""
+```
+
 ### As
+
+**Trigger:** `m2.layout.attr.as`
+
+**Output:**
+```xml
+as=""
+```
+
 ### Template
+
+**Trigger:** `m2.layout.attr.template`
+
+**Output:**
+```xml
+template=""
+```
+
 ### Class
+
+**Trigger:** `m2.layout.attr.class`
+
+**Output:**
+```xml
+class=""
+```
+
 ### Name
+
+**Trigger:** `m2.layout.attr.name`
+
+**Output:**
+```xml
+name=""
+```
+
 ### Before
+
+**Trigger:** `m2.layout.attr.before`
+
+**Output:**
+```xml
+before=""
+```
+
 ### After
+
+**Trigger:** `m2.layout.attr.after`
+
+**Output:**
+```xml
+after=""
+```
+
 ### Cacheable
+
+**Trigger:** `m2.layout.attr.cacheable`
+
+**Output:**
+```xml
+cacheable=""
+```
+
 ### Display
+
+**Trigger:** `m2.layout.attr.display`
+
+**Output:**
+```xml
+display=""
+```
+
 ### Remove
+
+**Trigger:** `m2.layout.attr.remove`
+
+**Output:**
+```xml
+remove=""
+```
