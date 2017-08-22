@@ -44,145 +44,124 @@ A nice start to a collection of Magento 2 code snippets for Visual Studio Code!
 
 ### Scaffold
 
-**Trigger:**
-```
-m2.layout
-```
+**Trigger:** `m2.layout`
 
 **Output:**
 ```xml
-
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        
+    </body>
+</page>
 ```
 
 ### Block
 
-**Trigger:**
-```
-m2.layout.block
-```
+**Trigger:** `m2.layout.block`
 
 **Output:**
 ```xml
-
+<block class="" name="" as="" template="" />
 ```
 
 ### Block Wrap
 
-**Trigger:**
-```
-m2.layout.blockWrap
-```
+**Trigger:** `m2.layout.blockWrap`
 
 **Output:**
 ```xml
-
+<block class="" name="" as="" template="" />
+    
+</block>
 ```
 
 ### Container
-**Trigger:**
-```
-m2.layout.container
-```
+**Trigger:** `m2.layout.container`
 
 **Output:**
 ```xml
-
+<container name="" label="" output="0" htmlTag="" htmlId="" htmlClass="" />
 ```
 
 ### Container Wrap
 
-**Trigger:**
-```
-m2.layout.containerWrap
-```
+**Trigger:** `m2.layout.containerWrap`
 
 **Output:**
 ```xml
-
+<container name="" label="" output="0" htmlTag="" htmlId="" htmlClass="">
+    
+</container>
 ```
 
 ### Reference Block
 
-**Trigger:**
-```
-m2.layout.refBlock
-```
+**Trigger:** `m2.layout.refBlock`
 
 **Output:**
 ```xml
-
+<referenceBlock name="">
+    
+</referenceBlock>
 ```
 
 ### Reference Container
 
-**Trigger:**
-```
-m2.layout.refContainer
-```
+**Trigger:** `m2.layout.refContainer`
 
 **Output:**
 ```xml
-
+<referenceContainer name="">
+    
+</referenceContainer>
 ```
 
 ### Move
 
-**Trigger:**
-```
-m2.layout.move
-```
+**Trigger:** `m2.layout.move`
 
 **Output:**
 ```xml
-
+<move element="" destination="" />
 ```
 
 ### Remove
 
-**Trigger:**
-```
-m2.layout.remove
-```
+**Trigger:** `m2.layout.remove`
 
 **Output:**
 ```xml
-
+<remove src="" />
 ```
 
 ### Update
 
-**Trigger:**
-```
-m2.layout.update
-```
+**Trigger:** `m2.layout.update`
 
 **Output:**
 ```xml
-
+<update handle=""/>
 ```
 
 ### Arguments
 
-**Trigger:**
-```
-m2.layout.arguments
-```
+**Trigger:** `m2.layout.args`
 
 **Output:**
 ```xml
-
+<arguments>
+    
+</arguments>
 ```
 
 ### Argument
 
-**Trigger:**
-```
-m2.layout.argument
-```
+**Trigger:** `m2.layout.argument`
 
 **Output:**
 ```xml
-
+<argument name="" xsi:type=""></argument>
 ```
 
 ## Attributes
