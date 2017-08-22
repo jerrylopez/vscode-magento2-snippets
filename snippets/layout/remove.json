@@ -1,7 +1,9 @@
-"Remove": {
-    "prefix": "m2.layout.remove",
-    "body": [
-        "<remove src=\"$1\" />$0"
-    ],
-    "description": "Is used only to remove the static resources linked in a page <head> section"
-},
+{
+    "Remove": {
+        "prefix": "m2.layout.remove",
+        "body": [
+            "<remove src=\"$1\" />$0"
+        ],
+        "description": "Is used only to remove the static resources linked in a page <head> section"
+    }
+}
