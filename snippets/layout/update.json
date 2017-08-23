@@ -5,5 +5,5 @@
             "<update handle=\"$0\"/>"
         ],
         "description": "Includes a certain layout file"
-    },
+    }
 }
