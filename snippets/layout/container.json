@@ -25,5 +25,5 @@
             "</referenceContainer>"
         ],
         "description": "Targets containers and applies updates specified"
-    },
+    }
 }
