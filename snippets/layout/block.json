@@ -10,7 +10,7 @@
     "Block Wrap": {
         "prefix": "m2.layout.blockWrap",
         "body": [
-            "<block class=\"$1\" name=\"$3\" as=\"$5\" template=\"$7\" />",
+            "<block class=\"$1\" name=\"$3\" as=\"$5\" template=\"$7\">",
             "\t$0",
             "</block>"
         ],
