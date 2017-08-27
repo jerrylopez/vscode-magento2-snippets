@@ -5,7 +5,7 @@ A nice start to a collection of Magento 2 code snippets for Visual Studio Code!
 ## Table of Contents
 <details>
   <summary><a href="#layouts">Layouts</a></summary>
-  <details style="margin-left: 15px;">
+  <details>
     <summary><a href="#instructions">Instructions</a></summary>
     <ul>
       <li><a href="#scaffold">Scaffold</a></li>
@@ -22,7 +22,7 @@ A nice start to a collection of Magento 2 code snippets for Visual Studio Code!
       <li><a href="#argument">Argument</a></li>
     </ul>
   </details>
-  <details style="margin-left: 15px;">
+  <details>
     <summary><a href="#attributes">Attributes</a></summary>
     <ul>
       <li><a href="#translate">Translate</a></li>
