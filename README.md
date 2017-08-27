@@ -3,40 +3,50 @@
 A nice start to a collection of Magento 2 code snippets for Visual Studio Code!
 
 ## Table of Contents
-- [Layouts](#layouts)
-  - [Instructions](#instructions)
-    - [Scaffold](#scaffold)
-    - [Block](#block)
-    - [Block Wrap](#block-wrap)
-    - [Container](#container)
-    - [Container Wrap](#container-wrap)
-    - [Reference Block](#reference-block)
-    - [Reference Container](#reference-container)
-    - [Move](#move)
-    - [Remove](#remove)
-    - [Update](#update)
-    - [Arguments](#arguements)
-    - [Argument](#arguement)
-  - [Attributes](#attributes)
-    - [Translate](#translate)
-    - [xsi:type](#xsi-type)
-    - [Handle](#Handle)
-    - [Destination](#destination)
-    - [Element](#element)
-    - [htmlId](#htmlid)
-    - [htmlClass](#htmlclass)
-    - [htmlTag](#htmltag)
-    - [Output](#output)
-    - [Label](#label)
-    - [As](#as)
-    - [Template](#template)
-    - [Class](#class)
-    - [Name](#name)
-    - [Before](#before)
-    - [After](#after)
-    - [Cacheable](#cacheable)
-    - [Display](#display)
-    - [Remove](#remove)
+<details>
+  <summary><a href="#layouts">Layouts</a></summary>
+  <details style="margin-left: 15px;">
+    <summary><a href="#instructions">Instructions</a></summary>
+    <ul>
+      <li><a href="#scaffold">Scaffold</a></li>
+      <li><a href="#block">Block</a></li>
+      <li><a href="#block-wrap">Block Wrap</a></li>
+      <li><a href="#container">Container</a></li>
+      <li><a href="#container-wrap">Container Wrap</a></li>
+      <li><a href="#reference-block">Reference Block</a></li>
+      <li><a href="#reference-container">Reference Container</a></li>
+      <li><a href="#move">Move</a></li>
+      <li><a href="#remove">Remove</a></li>
+      <li><a href="#update">Update</a></li>
+      <li><a href="#arguments">Arguments</a></li>
+      <li><a href="#argument">Argument</a></li>
+    </ul>
+  </details>
+  <details style="margin-left: 15px;">
+    <summary><a href="#attributes">Attributes</a></summary>
+    <ul>
+      <li><a href="#translate">Translate</a></li>
+      <li><a href="#xsitype">xsi:type</a></li>
+      <li><a href="#handle">Handle</a></li>
+      <li><a href="#destination">Destination</a></li>
+      <li><a href="#element">Element</a></li>
+      <li><a href="#htmlid">htmlId</a></li>
+      <li><a href="#htmlclass">htmlClass</a></li>
+      <li><a href="#htmltag">htmlTag</a></li>
+      <li><a href="#output">Output</a></li>
+      <li><a href="#label">Label</a></li>
+      <li><a href="#as">As</a></li>
+      <li><a href="#template">Template</a></li>
+      <li><a href="#class">Class</a></li>
+      <li><a href="#name">Name</a></li>
+      <li><a href="#before">Before</a></li>
+      <li><a href="#after">After</a></li>
+      <li><a href="#cacheable">Cacheable</a></li>
+      <li><a href="#display">Display</a></li>
+      <li><a href="#remove">Remove</a></li>
+    </ul>
+  </details>
+</details>
 
 # Layouts
 
