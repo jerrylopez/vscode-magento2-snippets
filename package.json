@@ -4,6 +4,7 @@
     "description": "A collection of Magento 2 snippets",
     "version": "0.1.1",
     "publisher": "jerrylopez",
+    "icon": "images/icon.png",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/jerrylopez/vscode-magento2-snippets/issues"
