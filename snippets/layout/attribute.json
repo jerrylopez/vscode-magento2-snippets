@@ -114,7 +114,7 @@
     "Before": {
         "prefix": "m2.layout.attr.before",
         "body": [
-            "before=\"${1:|dash(-),element,empty|}\"$0"
+            "before=\"$1\"$0"
         ],
         "description": "Before attribute"
     },
@@ -122,7 +122,7 @@
     "After": {
         "prefix": "m2.layout.attr.after",
         "body": [
-            "after=\"${1:|dash(-),element,empty|}\"$0"
+            "after=\"$1\"$0"
         ],
         "description": "After attribute"
     },
