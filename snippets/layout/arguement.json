@@ -12,7 +12,7 @@
     "Arguement": {
         "prefix": "m2.layout.arg",
         "body": [
-            "<argument name=\"${1:name}\" xsi:type=\"${2:type|string,boolean,object,number,null,array|}\">$3</argument>$0"
+            "<argument name=\"${1:name}\" xsi:type=\"${2|array,boolean,number,null,object,string|}\">$3</argument>$0"
         ],
         "description": "Includes a certain layout file"
     }

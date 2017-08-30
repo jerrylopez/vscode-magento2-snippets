@@ -2,7 +2,7 @@
     "Translate": {
         "prefix": "m2.layout.attr.translate",
         "body": [
-            "translate=\"${2:boolean|true,false|}\""
+            "translate=\"${2|false,true|}\""
         ],
         "description": "Translate attribute"
     },
@@ -10,7 +10,7 @@
     "xsi:type": {
         "prefix": "m2.layout.attr.xsi:type",
         "body": [
-            "xsi:type=\"${2:type|string,boolean,object,number,null,array|}\""
+            "xsi:type=\"${2|array,boolean,number,null,object,string|}\""
         ],
         "description": "xsi:type attribute"
     },
@@ -66,7 +66,7 @@
     "Output": {
         "prefix": "m2.layout.attr.output",
         "body": [
-            "output=\"${1:|1,0|}\"$0"
+            "output=\"${1|0,1|}\"$0"
         ],
         "description": "Output attribute"
     },
@@ -130,7 +130,7 @@
     "Cacheable": {
         "prefix": "m2.layout.attr.cacheable",
         "body": [
-            "cacheable=\"${boolean:|true,false|}\"$0"
+            "cacheable=\"${1|false,true|}\"$0"
         ],
         "description": "Cacheable attribute"
     },
@@ -138,7 +138,7 @@
     "Display": {
         "prefix": "m2.layout.attr.display",
         "body": [
-            "display=\"${boolean:|true,false|}\"$0"
+            "display=\"${1|false,true|}\"$0"
         ],
         "description": "Display attribute"
     },
@@ -146,7 +146,7 @@
     "Remove": {
         "prefix": "m2.layout.attr.remove",
         "body": [
-            "remove=\"${boolean:|true,false|}\"$0"
+            "remove=\"${1|false,true|}\"$0"
         ],
         "description": "Remove attribute"
     }
