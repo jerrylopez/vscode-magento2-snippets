@@ -1,0 +1,11 @@
+{
+	"DI Virtual Type": {
+        "prefix": "m2.di.virtualtype",
+        "body": [
+            "<virtualType name=\"${1:Virtual Type Name}\" type=\"${2:Fully Qualified Classname}\">",
+            "\t$0",
+            "</virtualType>"
+        ],
+        "description": "Magento 2 DI type"
+    }
+}
