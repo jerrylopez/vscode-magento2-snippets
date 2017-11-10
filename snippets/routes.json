@@ -1,0 +1,31 @@
+{
+    "Routes Scaffold": {
+		"prefix": "m2.routes",
+		"body": [
+			"<?xml version=\"1.0\"?>",
+			"<config xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"",
+			"\t\txsi:noNamespaceSchemaLocation=\"urn:magento:framework:App/etc/routes.xsd\">",
+			"\t$0",
+			"</config>"
+		],
+		"description": "Magento 2 routes scaffold"
+	},
+	"Router": {
+		"prefix": "m2.routes.router",
+		"body": [
+			"<router id=\"${2|admin,standard|}\">",
+			"\t$0",
+			"</router>"
+		],
+		"description": "Magento 2 event"
+	},
+	"Route": {
+		"prefix": "m2.routes.route",
+		"body": [
+			"<route id=\"${1:route_id}\" frontName=\"${2:frontname}\">",
+            "\t<module name=\"${3:Vendor_Module}\" />",
+            "</route>"
+		],
+		"description": "Magento 2 event observer"
+	}
+}

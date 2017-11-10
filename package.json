@@ -53,6 +53,38 @@
             {
                 "language": "xml",
                 "path": "./snippets/layout/update.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/di/preference.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/di/scaffold.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/di/type.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/di/virtualtype.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/module/module.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/module/registration.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/events.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/routes.json"
             }
         ]
     }

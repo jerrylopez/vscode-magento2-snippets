@@ -1,0 +1,30 @@
+{
+    "Events Scaffold": {
+		"prefix": "m2.events",
+		"body": [
+			"<?xml version=\"1.0\"?>",
+			"<config xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"",
+			"\t\txsi:noNamespaceSchemaLocation=\"urn:magento:framework:Event/etc/events.xsd\">",
+			"\t$0",
+			"</config>"
+		],
+		"description": "Magento 2 events scaffold"
+	},
+	"Event": {
+		"prefix": "m2.events.event",
+		"body": [
+			"<event name=\"${1:event_name}\">",
+			"\t$0",
+			"</event>"
+		],
+		"description": "Magento 2 event"
+	},
+	"Observer": {
+		"prefix": "m2.events.observer",
+		"body": [
+			"<observer name=\"${1:observer_name}\"",
+			"\tinstance=\"${2:Fully Qualified Classname}\" />"
+		],
+		"description": "Magento 2 event observer"
+	}
+}

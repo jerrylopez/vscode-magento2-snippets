@@ -3,9 +3,10 @@
 		"prefix": "m2.di",
 		"body": [
 			"<?xml version=\"1.0\"?>",
-			"<page xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"urn:magento:framework:ObjectManager/etc/config.xsd\">",
+			"<config xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" ",
+			"\t\txsi:noNamespaceSchemaLocation=\"urn:magento:framework:ObjectManager/etc/config.xsd\">",
 			"\t$0",
-			"</page>"
+			"</config>"
 		],
 		"description": "Magento 2 DI scaffold"
 	}
