@@ -1,9 +1,0 @@
-{
-	"DI Preference": {
-		"prefix": "m2.di.pref",
-		"body": [
-			"<preference for=\"${1:Fully Qualified Classname}\" type=\"${2:Fully Qualified Classname}\" />$0",
-		],
-		"description": "Magento 2 DI preference"
-	}
-}

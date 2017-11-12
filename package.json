@@ -56,19 +56,7 @@
             },
             {
                 "language": "xml",
-                "path": "./snippets/di/preference.json"
-            },
-            {
-                "language": "xml",
-                "path": "./snippets/di/scaffold.json"
-            },
-            {
-                "language": "xml",
-                "path": "./snippets/di/type.json"
-            },
-            {
-                "language": "xml",
-                "path": "./snippets/di/virtualtype.json"
+                "path": "./snippets/di.json"
             },
             {
                 "language": "xml",
