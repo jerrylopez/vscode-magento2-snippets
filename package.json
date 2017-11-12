@@ -2,7 +2,7 @@
     "name": "magento2-snippets",
     "displayName": "Magento 2 Snippets",
     "description": "A collection of Magento 2 snippets",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "jerrylopez",
     "icon": "images/icon.png",
     "license": "MIT",
