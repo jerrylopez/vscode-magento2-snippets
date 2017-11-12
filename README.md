@@ -63,6 +63,7 @@ A nice start to a collection of Magento 2 code snippets for Visual Studio Code!
     <li><a href="#di-scaffold">Scaffold</a></li>
     <li><a href="#preference">Preference</a></li>
     <li><a href="#type">Type</a></li>
+    <li><a href="#plugin">Plugin</a></li>
     <li><a href="#virtual-type">Virtual Type</a></li>
   </ul>
 </details>
@@ -475,6 +476,17 @@ remove=""
 **Output:**
 ```xml
 <item name="" xsi:type=""></item>
+```
+
+### Plugin
+
+**Trigger:** `m2.di.plugin`
+
+**Output:**
+```xml
+<plugin name="" 
+        type=""
+        sortOrder=""/>
 ```
 
 ### Virtual Type
