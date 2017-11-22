@@ -47,6 +47,48 @@ A nice start to a collection of Magento 2 code snippets for Visual Studio Code!
   </ul>
 </details>
 
+### Modules
+<details>
+  <summary><a href="#mod-instructions">Instructions</a></summary>
+  <ul>
+    <li><a href="#module-xml">Module XML</a></li>
+    <li><a href="#registration-php">Registration</a></li>
+  </ul>
+</details>
+
+### DI
+<details>
+  <summary><a href="#di-instructions">Instructions</a></summary>
+  <ul>
+    <li><a href="#di-scaffold">Scaffold</a></li>
+    <li><a href="#preference">Preference</a></li>
+    <li><a href="#type">Type</a></li>
+    <li><a href="#plugin">Plugin</a></li>
+    <li><a href="#virtual-type">Virtual Type</a></li>
+  </ul>
+</details>
+
+### Events
+<details>
+  <summary><a href="#events-instructions">Instructions</a></summary>
+  <ul>
+    <li><a href="#events-scaffold">Scaffold</a></li>
+    <li><a href="#event">Event</a></li>
+    <li><a href="#observer">Observer</a></li>
+  </ul>
+</details>
+
+### Routes
+<details>
+  <summary><a href="#routes-instructions">Instructions</a></summary>
+  <ul>
+    <li><a href="#routes-scaffold">Scaffold</a></li>
+    <li><a href="#routers">Routers</a></li>
+    <li><a href="#route">Route</a></li>
+  </ul>
+</details>
+
+
 # Layouts
 
 ## Instructions
@@ -345,3 +387,200 @@ display=""
 ```xml
 remove=""
 ```
+
+
+# Modules
+
+## Module Instructions
+
+### Module XML
+
+**Trigger:** `m2.module`
+
+**Output:**
+```xml
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/module.xsd">
+    <module name="" setup_version="0.1.0" />
+
+</config>
+```
+
+### Registration
+
+**Trigger:** `m2.module.registration`
+
+**Output:**
+```php
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::MODULE,
+    '',
+    __DIR__
+);
+```
+
+
+# DI
+
+## DI Instructions
+
+### DI Scaffold
+
+**Trigger:** `m2.di`
+
+**Output:**
+```xml
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    
+</config>
+```
+
+### Preference
+
+**Trigger:** `m2.di.pref`
+
+**Output:**
+```xml
+<preference for="" type="" />
+```
+
+### Type
+
+**Trigger:** `m2.di.type`
+
+**Output:**
+```xml
+<type name="">
+
+</type>
+```
+
+#### Type Arguments
+
+**Trigger:** `m2.di.type.args`
+
+**Output:**
+```xml
+<arguments>
+    <argument name="" xsi:type=""></argument>
+</arguments>
+```
+
+#### Type Arguments Item
+
+**Trigger:** `m2.di.type.args.item`
+
+**Output:**
+```xml
+<item name="" xsi:type=""></item>
+```
+
+### Plugin
+
+**Trigger:** `m2.di.plugin`
+
+**Output:**
+```xml
+<plugin name="" 
+        type=""
+        sortOrder=""/>
+```
+
+### Virtual Type
+
+**Trigger:** `m2.di.virtualtype`
+
+**Output:**
+```xml
+<virtualType name="" type="">
+
+</virtualType>
+```
+
+
+# Events
+
+## Events Instructions
+
+### Events Scaffold
+
+**Trigger:** `m2.events`
+
+**Output:**
+```xml
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+
+</config>
+```
+
+
+### Event
+
+**Trigger:** `m2.events.event`
+
+**Output:**
+```xml
+<event name="">
+
+</event>
+```
+
+
+### Observer
+
+**Trigger:** `m2.events.observer`
+
+**Output:**
+```xml
+<observer name="" instance="" />
+```
+
+
+# Routes
+
+## Routes Instructions
+
+### Routes Scaffold
+
+**Trigger:** `m2.routes`
+
+**Output:**
+```xml
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+
+</config>
+```
+
+
+### Routers
+
+**Trigger:** `m2.routes.router`
+
+**Output:**
+```xml
+<router id="">
+    
+</router>
+```
+
+
+### Route
+
+**Trigger:** `m2.routes.route`
+
+**Output:**
+```xml
+<route id="" frontName="">
+    <module name="" />
+</route>
+```
+
+
+

@@ -1,0 +1,62 @@
+{
+	"DI Scaffold": {
+		"prefix": "m2.di",
+		"body": [
+			"<?xml version=\"1.0\"?>",
+			"<config xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" ",
+			"\t\txsi:noNamespaceSchemaLocation=\"urn:magento:framework:ObjectManager/etc/config.xsd\">",
+			"\t$0",
+			"</config>"
+		],
+		"description": "Magento 2 DI scaffold"
+	},
+	"DI Preference": {
+		"prefix": "m2.di.pref",
+		"body": [
+			"<preference for=\"${1:Fully Qualified Classname}\" type=\"${2:Fully Qualified Classname}\" />$0"
+		],
+		"description": "Magento 2 DI preference"
+	},
+	"DI Type": {
+        "prefix": "m2.di.type",
+        "body": [
+            "<type name=\"${1:Fully Qualified Classname}\">",
+            "\t$0",
+            "</type>"
+        ],
+        "description": "Magento 2 DI type"
+    },
+    "DI Plugin": {
+        "prefix": "m2.di.plugin",
+        "body": [
+            "<plugin name=\"${1:plugin_name}\" ",
+            "\ttype=\"${2:Fully Qualified Classname}\"",
+            "\tsortOrder=\"${3}\"/>$0"
+        ]
+    },
+	"DI Type Arguments": {
+        "prefix": "m2.di.args",
+        "body": [
+            "<arguments>",
+            "\t<argument name=\"${1:Constructor Argument}\" xsi:type=\"${2|array,boolean,number,null,object,string|}\">$3</argument>",
+            "</arguments>$0"
+        ],
+        "description": "Magento 2 DI type arguments"
+	},
+	"DI Type Argument Item": {
+		"prefix": "m2.di.args.item",
+		"body": [
+            "<item name=\"${1}\" xsi:type=\"${2|array,boolean,number,null,object,string|}\">$3</item>$0"
+		],
+        "description": "Magento 2 DI type argument item"
+	},
+	"DI Virtual Type": {
+        "prefix": "m2.di.virtualtype",
+        "body": [
+            "<virtualType name=\"${1:Virtual Type Name}\" type=\"${2:Fully Qualified Classname}\">",
+            "\t$0",
+            "</virtualType>"
+        ],
+        "description": "Magento 2 DI type"
+    }
+}

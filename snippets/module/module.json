@@ -1,0 +1,13 @@
+{
+	"Module": {
+		"prefix": "m2.module",
+		"body": [
+			"<?xml version=\"1.0\"?>",
+			"<config xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" ",
+			"\t\txsi:noNamespaceSchemaLocation=\"urn:magento:framework:ObjectManager/etc/module.xsd\">",
+			"\t<module name=\"${1:Vendor_Module}\" setup_version=\"0.1.0\" />",
+			"</config>"
+		],
+		"description": "Magento 2 DI scaffold"
+	}
+}

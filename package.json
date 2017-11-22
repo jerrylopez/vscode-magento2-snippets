@@ -2,7 +2,7 @@
     "name": "magento2-snippets",
     "displayName": "Magento 2 Snippets",
     "description": "A collection of Magento 2 snippets",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "jerrylopez",
     "icon": "images/icon.png",
     "license": "MIT",
@@ -53,6 +53,26 @@
             {
                 "language": "xml",
                 "path": "./snippets/layout/update.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/di.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/module/module.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/module/registration.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/events.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/routes.json"
             }
         ]
     }
