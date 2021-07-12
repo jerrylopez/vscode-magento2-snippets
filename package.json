@@ -67,6 +67,10 @@
                 "path": "./snippets/module/registration.json"
             },
             {
+                "language": "json",
+                "path": "./snippets/module/composer.json"
+            },
+            {
                 "language": "xml",
                 "path": "./snippets/events.json"
             },

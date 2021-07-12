@@ -1,0 +1,28 @@
+{
+  "Composer": {
+  "prefix": "m2.module.composer",
+  "body": [
+       "{",
+       "\t\"name\": \"${1:vendor}\/module-${2:module}\",",
+       "\t\"description\": \"N\/A\",",
+       "\t\"require\": {",
+       "\t\t\"magento\/framework\": \"*\"",
+       "\t},",
+       "\t\"type\": \"magento2-module\",",
+       "\t\"version\": \"0.1.0\",",
+       "\t\"license\": [",
+       "\t\t\"OSL-3.0\"",
+       "\t],",
+       "\t\"autoload\": {",
+       "\t\t\"files\": [",
+       "\t\t\t\"registration.php\"",
+       "\t\t],",
+       "\t\t\"psr-4\": {",
+       "\t\t\t\"${3:Vendor}\\\\\\\\${4:Module}\\\\\\\": \"\"",
+       "\t\t}",
+       "\t}",
+       "}"
+  ],
+  "description": "Magento 2 composer file"
+}
+}
