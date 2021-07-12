@@ -24,7 +24,7 @@
         "snippets": [
             {
                 "language": "xml",
-                "path": "./snippets/layout/arguement.json"
+                "path": "./snippets/layout/argument.json"
             },
             {
                 "language": "xml",
