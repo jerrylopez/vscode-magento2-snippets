@@ -17,7 +17,7 @@
 			"\t$0",
 			"</router>"
 		],
-		"description": "Magento 2 event"
+		"description": "Magento 2 router"
 	},
 	"Route": {
 		"prefix": "m2.routes.route",
@@ -26,6 +26,6 @@
             "\t<module name=\"${3:Vendor_Module}\" />",
             "</route>"
 		],
-		"description": "Magento 2 event observer"
+		"description": "Magento 2 route"
 	}
 }
