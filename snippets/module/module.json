@@ -8,6 +8,6 @@
 			"\t<module name=\"${1:Vendor_Module}\" />",
 			"</config>"
 		],
-		"description": "Magento 2 DI scaffold"
+		"description": "Magento 2 module.xml"
 	}
 }
