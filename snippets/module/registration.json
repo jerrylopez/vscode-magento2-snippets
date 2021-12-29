@@ -8,6 +8,6 @@
 			"\t__DIR__",
 		");"
 		],
-		"description": "Magento 2 registration file"
+		"description": "Magento 2 registration.php"
 	}
 }

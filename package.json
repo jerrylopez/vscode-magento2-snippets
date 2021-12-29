@@ -24,7 +24,7 @@
         "snippets": [
             {
                 "language": "xml",
-                "path": "./snippets/layout/arguement.json"
+                "path": "./snippets/layout/argument.json"
             },
             {
                 "language": "xml",
@@ -65,6 +65,10 @@
             {
                 "language": "php",
                 "path": "./snippets/module/registration.json"
+            },
+            {
+                "language": "json",
+                "path": "./snippets/module/composer.json"
             },
             {
                 "language": "xml",

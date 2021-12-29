@@ -57,6 +57,6 @@
             "\t$0",
             "</virtualType>"
         ],
-        "description": "Magento 2 DI type"
+        "description": "Magento 2 DI virtual type"
     }
 }
